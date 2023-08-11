@@ -1,0 +1,93 @@
+@use "../patial/mixins" as *;
+@use "../patial/variables" as *;
+
+.intro {
+    background-image: url("../assets/images/intro_bg.webp");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    &__title {
+        color: rgb(239, 171, 182);
+        padding-top: 0rem;
+        margin-left: 2rem;
+        font-size: 40px;
+        @include tablet {
+            // padding-top: 5rem;
+            font-size: 60px;
+            margin-left: 3rem;
+        }
+        @include desktop {
+            margin-left: 4rem;
+            // padding-top: 5rem;
+            font-size: 90px;
+        }
+        text-shadow:
+        1px 1px 1px #B7215B,
+        1px 2px 1px #B7215B,
+        1px 3px 1px #B7215B,
+        1px 4px 1px #B7215B,
+        1px 5px 1px #B7215B,
+        1px 6px 1px #B7215B,
+        1px 10px 5px rgba(32, 32, 32, 0.5),
+        1px 15px 10px rgba(32, 32, 32, 0.4),
+        1px 20px 30px rgba(32, 32, 32, 0.3),
+        1px 25px 50px rgba(32, 32, 32, 0.2);
+    }
+    &__name {
+        display: flex;
+        li{
+            // margin-bottom: 2rem;
+        }
+        &--left{
+            margin-left: 4rem;
+            margin-right: 8rem;
+        }
+        &--container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100px; /* Adjust the width and height as needed */
+            height: 100px;
+            border-radius: 50%; /* Makes the container circular */
+            background-color: #F0F0F0; /* Optional: Add a background color */
+            img {
+              width: 80%; /* Adjust the size of the image icon */
+              height: auto;
+              border-radius: 50%; /* Makes the image itself circular */
+            }
+        }
+    }
+    &__name--ppl{
+        list-style: none;
+        display: flex;
+        font-size: 30px;
+    }
+    &-btn {
+        margin-left: 2rem;
+        padding-top: 0rem;
+        @include tablet {
+            margin-left: 3rem;
+            padding-top: 0rem;
+        }
+        @include desktop {
+            margin-left: 4rem;
+            padding-top: 0rem;
+        }
+        &__start {
+            color: black;
+            border-color:lightgray ;
+            padding: 1.5rem 4rem;
+            font-size: 30px;
+            border-radius: 15px;
+            font-weight: bold;
+        }
+        // &:hover {
+        //     background-color: black;
+        //     color: white;
+        // }
+    }
+}
