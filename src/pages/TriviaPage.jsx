@@ -5,7 +5,8 @@ import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import arrow from '../assets/images/arrow.png';
 
-const api_URL = "http://localhost:5050";
+// const api_URL = "http://localhost:5050";
+const api_URL = process.env.REACT_APP_API_URL;
 
 function TriviaPage() {
 
@@ -119,7 +120,7 @@ function TriviaPage() {
         <div className="trivia__container">
           <div className="trivia-next">
             <button onClick={() => handleNextClick()}>
-              <img className="trivia-next-image" src={arrow} />
+              <img className="trivia-next-image" src={arrow} alt="next arrow" />
             </button>
           </div>
 

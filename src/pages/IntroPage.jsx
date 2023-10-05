@@ -14,12 +14,12 @@ function IntroPage() {
         <ul className="intro__name--ppl">
           <div className="intro__name--left">
             <div className="intro__name--container">
-              <img src={EmojiR} />
+              <img src={EmojiR} alt="ryan" />
             </div>
 
             <li>Ryan</li>
             <div className="intro__name--container">
-              <img src={EmojiY} />
+              <img src={EmojiY} alt="yuna" />
             </div>
 
             <li>Yuna</li>
@@ -27,12 +27,12 @@ function IntroPage() {
 
           <div className="intro__name--right">
             <div className="intro__name--container">
-              <img src={EmojiSu} />
+              <img src={EmojiSu} alt="supreet" />
             </div>
 
             <li>Supreet</li>
             <div className="intro__name--container">
-              <img src={EmojiSa} />
+              <img src={EmojiSa} alt="sabrine" />
             </div>
 
             <li>Sabrine</li>
