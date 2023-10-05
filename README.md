@@ -1,6 +1,6 @@
 # Trial Readme
 
-![home page](https://github.com/isupreetk/Hackathon-client/blob/main/assets/screenshots/home-page.png?raw=true)
+![home page](https://github.com/isupreetk/Hackathon-client/blob/main/src/assets/screenshots/home-page.png?raw=true)
 
 
 # Getting Started with Create React App
