@@ -17,7 +17,7 @@ function TriviaPage() {
     console.log(currentPoke.correct);
 
     if (event.target.value === currentPoke.correct) {
-      alert("Congratulation!! that is the right answer");
+      alert("Congratulations!! You got the right answer");
     } else {
       alert("Sorry, that is not the right Pokeman! Try again")
     };
@@ -48,7 +48,7 @@ function TriviaPage() {
       let next_id = prev_id + 1;
 
       if (next_id > 9) {
-        alert("Congratulations! Game Over! You win!");
+        alert("Congratulations! You win! Game Over!");
         navigate("/");
       }
       else{
