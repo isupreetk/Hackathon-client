@@ -1,13 +1,11 @@
 # PokeMania
 
-An application to play a trivia game for guessing the names of PokeMon characters. The front-end for this application is built with React, JavaScript, SCSS as part of a 6 hour hackathon.
-
-The back-end for this application is built with Express and NodeJS.
+A trivia game application for guessing the names of Pokémon characters, developed during a 6-hour hackathon. The front-end of this application is created using React, JavaScript, and SCSS, while the back-end is built with Express and NodeJS.
 
 
 # Deployment
 
-This application has been deployed using Netlify. Here is the link for it: [https://supreet-kaur-pokemania.netlify.app/] (https://supreet-kaur-pokemania.netlify.app/)
+This application has been deployed using Netlify. Here is the link for it: [https://supreet-kaur-pokemania.netlify.app/]
 
 
 # Screenshots
