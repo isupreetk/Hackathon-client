@@ -34,18 +34,10 @@ The front-end for this application has been deployed using Netlify. Here is the 
 
 Clone this repository. You will need node and npm installed globally on your machine.
 
-Installation:
+Installation: npm install
 
-npm install
+To Start Server: npm start
 
-To Start Server:
+To Visit App: localhost:3000
 
-npm start
-
-To Visit App:
-
-localhost:3000
-
-To connect to the back-end: 
-
-You will need to clone the Hackathon-server repository: [https://github.com/isupreetk/Hackathon-server]
+To connect to the back-end: You will need to clone the Hackathon-server repository: [https://github.com/isupreetk/Hackathon-server]
